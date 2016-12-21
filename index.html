@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, World! - A-Frame</title>
+    <meta name="description" content="Hello, World! - A-Frame">
+    <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+  </head>
+  <body>
+
+<a-scene>
+  <a-assets>
+    <a-asset-item id="spacebomber-obj" src="/spacebomber-wip-obj-obj/spacebomber-wip-obj.obj"></a-asset-item>
+    <a-asset-item id="spacebomber-mtl" src="/spacebomber-wip-obj-obj/spacebomber-wip-obj.mtl"></a-asset-item>
+  </a-assets>
+  <a-entity obj-model="obj: #spacebomber-obj; mtl: #spacebomber-mtl"></a-entity>
+  <a-camera></a-camera>
+  <a-sky color="blue"></a-sky>
+</a-scene>
+</body>
+</html>
